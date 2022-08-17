@@ -20,6 +20,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     </head>
     <body>
+        {{-- 名前付きslot⇒conponent-blade→view-blade --}}
         <header>
             {{ $header }}
         </header>
